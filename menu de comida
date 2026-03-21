@@ -1,0 +1,27 @@
+print("MENÚ DE COMIDA")
+
+usuario = input("Ingresa tu nombre: ")
+
+print("Hola", usuario)
+
+print("1. Hamburguesa - $10")
+print("2. Pizza - $12")
+print("3. Perro caliente - $8")
+print("4. Salir")
+
+op = input("Elige una opción: ")
+
+if op == "1":
+    print(usuario, "elegiste Hamburguesa 🍔")
+    print("Total a pagar: $10")
+
+if op == "2":
+    print(usuario, "elegiste Pizza 🍕")
+    print("Total a pagar: $12")
+
+if op == "3":
+    print(usuario, "elegiste Perro caliente 🌭")
+    print("Total a pagar: $8")
+
+if op == "4":
+    print("Adiós", usuario)
